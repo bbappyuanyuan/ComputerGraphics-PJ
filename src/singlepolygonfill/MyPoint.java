@@ -2,7 +2,7 @@ package singlepolygonfill;
 
 public class MyPoint {
 
-    public static final MyPoint NAN = new MyPoint(0, 0);
+    public static final MyPoint NAN = new MyPoint(-1, -1);
 
     public double x;
     public double y;
